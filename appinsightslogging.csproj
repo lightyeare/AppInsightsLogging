@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/c0f1a9ff-5323-4d46-b387-508d978075ac/resourceGroups/rg-blog-production/providers/microsoft.insights/components/appi-logging</ApplicationInsightsResourceId>
+    <UserSecretsId>9b075d3a-b174-4ec2-92a7-6586463184db</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Serilog" Version="4.0.0" />
+    <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
