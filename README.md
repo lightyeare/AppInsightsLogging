@@ -2,7 +2,7 @@
 
 This is a small demo project to log error messages to Application Insights. It demonstrates the different ways to log messages via the logger and the result. 
 
-See my Blog post [ASP.NET Core Logger messages matter](https://chadpeters.dev/aspnetcore-logger-messages) for more information. 
+See my Blog post [ASP.NET Core Logger messages matter](https://chadpeters.dev/blog/aspnetcore-logger-messages) for more information. 
 
 ## Setup
 
